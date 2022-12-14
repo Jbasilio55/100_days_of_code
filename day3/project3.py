@@ -1,5 +1,5 @@
 # Coding Rooms is very handy for our exercises. However, the end-of-day projects are more free-form. 
-# You can experiment and play with this project. Customise it. Get as creative as you like. 
+# You can experiment and play with this project. Customize it. Get as creative as you like. 
 # There is no exact output for you to match. There are no tests for you to pass. These assignments are not graded.
 
 print('''
