@@ -7,9 +7,11 @@ states_of_america = ["Alabama","Alaska","Arizona","Arkansas","California","Color
 "Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah",
 "Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]
 
-print(states_of_america[23])
-print(len(states_of_america))
-states_of_america[0] = "Alabama..."
-states_of_america.append("Jorge-vile")
-states_of_america.extend([1, 2, 3])
-print(states_of_america)
+# print(states_of_america[50]) # <--- out of bounds error (index is out of range)
+
+dirtydozen = ["Strawberries", "Spinach", "Kale", "Nectarines","Apples","Grapes","Peaches","Cherries","Pears","Tomatoes","Celery","Potatoes"]
+
+fruits = ["Strawberries", "Nectarines","Apples","Grapes","Peaches","Cherries","Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes","Celery","Potatoes"]
+
+dirtydozens = [fruits, vegetables]
